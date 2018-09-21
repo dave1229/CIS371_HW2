@@ -1,0 +1,53 @@
+/* Style sheet created by: David Reynolds*/
+
+/* Style for body specifies a background color */
+body {
+    background-color: #6699ff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Style to create fluid image */
+/* 
+tr > td div[cells] {
+
+} 
+*/
+
+.best {
+    font-style: italic;
+}
+/* Profile Image */
+#profile {
+    height: 20%;
+    width: 30%;
+    float: right;
+    margin: 1em;
+}
+/* Inspiration Person Image */
+body > #mainTable img {
+    height: 20%;
+    width: 30%;
+    margin: 1em;
+}
+
+#courseTable {
+    border: #000000;
+    border-style: solid;
+}
+
+#courseTable > p:nth-child(2) {
+    text-align: center;
+}
+
+table p {
+    font-size: small;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+.cells {
+    font-size: medium;
+}
+
